@@ -511,23 +511,7 @@ body {
 }
 
 .input-focus-effect {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #dc0315, #ff1744);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateX(-50%);
-  border-radius: 2px;
-}
-
-.form-input:focus + .input-focus-effect {
-  width: 100%;
-}
-
-.password-container .form-input:focus + .input-focus-effect {
-  width: calc(100% - 60px);
+  display: none;
 }
 
 .form-input {
@@ -568,8 +552,8 @@ body {
 }
 
 .input-container:focus-within {
-  border-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+  border-color: #dc0315;
+  box-shadow: 0 0 0 4px rgba(220, 3, 21, 0.1);
   background: rgba(255, 255, 255, 0.95);
 }
 
