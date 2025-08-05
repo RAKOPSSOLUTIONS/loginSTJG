@@ -568,8 +568,8 @@ body {
 }
 
 .input-container:focus-within {
-  border-color: #dc0315;
-  box-shadow: 0 0 0 4px rgba(220, 3, 21, 0.15);
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
   background: rgba(255, 255, 255, 0.95);
 }
 
@@ -578,7 +578,7 @@ body {
 }
 
 .form-input:hover {
-  border-color: #fca5a5;
+  border-color: rgba(0, 0, 0, 0.1);
   transform: translateY(-1px);
 }
 

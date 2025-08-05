@@ -19,7 +19,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Connexion:', formData);
+    console.log('Login:', formData);
   };
 
   return (
@@ -49,7 +49,7 @@ function App() {
               <div className="logo-ring ring-2"></div>
               <img src={logo} alt="STJGTrans" className="logo" />
             </div>
-            <h1 className="title">Connexion</h1>
+
           </div>
 
           <form className="login-form" onSubmit={handleSubmit}>
