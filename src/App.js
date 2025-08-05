@@ -100,9 +100,9 @@ function App() {
             </div>
 
             <div className="form-actions">
-              <a href="#" className="forgot-password">
+              <button type="button" className="forgot-password" onClick={() => alert('Fonctionnalité à venir')}>
                 Mot de passe oublié ?
-              </a>
+              </button>
             </div>
 
             <button type="submit" className="submit-button">
